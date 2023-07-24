@@ -63,6 +63,12 @@ To prepare your development environment you can use the following commands:
 
 ## Next steps
 
+Initialize the database:
+
+    $ make shell
+    $ ./manage.py makemigrations
+    $ ./manage.py migrate
+    
 Creating a superuser account in the backend is useful so you have access to
 Django Admin that will be accesible at [http://localhost:8009/admin](http://localhost:8009/admin)
 
