@@ -25,6 +25,8 @@ check these into the repo in the next step:
 
     $ make compile
 
+    $ make build-dev
+
 At this point, it's probably a good idea to commit this initial version of the project
 to version control:
 
