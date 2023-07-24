@@ -42,7 +42,7 @@ Then you are ready to build the project for the first time. The following comman
 will build the project so you will be ready to start developing. First execution
 of this command may take a few minutes to finish:
 
-    $ tilt up
+    $ make up
 
 It may take a little bit of time for all the services to start up, and it's possible for
 the first run to fail because of timing conflicts. If you do see messages indicating there
