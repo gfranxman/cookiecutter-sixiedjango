@@ -27,17 +27,6 @@ check these into the repo in the next step:
 
     $ make build-dev
 
-At this point, it's probably a good idea to commit this initial version of the project
-to version control:
-
-    $ git init
-    $ git add .
-    $ git commit -m "Initial commit"
-
-You can then use any of a number of available git repository sites such as Bitbucket,
-Gitlab, or GitHub to host the project; follow their instructions to push the repo to their
-systems.
-
 Then you are ready to build the project for the first time. The following command
 will build the project so you will be ready to start developing. First execution
 of this command may take a few minutes to finish:
@@ -80,3 +69,16 @@ To create a superuser use the following commands:
 If React frontend was selected during the project creation
 (using our [cookiecutter](https://github.com/sixfeetup/cookiecutter-sixiedjango)), you
 can access it at [http://localhost:3000/](http://localhost:3000/).
+
+If all has gone well, it's probably a good idea to commit this initial version of the project
+to version control:
+
+    $ git init
+    $ git add .
+    $ git commit -m "Initial commit"
+
+You can then use any of a number of available git repository sites such as Bitbucket,
+Gitlab, or GitHub to host the project; follow their instructions to push the repo to their
+systems.
+
+
